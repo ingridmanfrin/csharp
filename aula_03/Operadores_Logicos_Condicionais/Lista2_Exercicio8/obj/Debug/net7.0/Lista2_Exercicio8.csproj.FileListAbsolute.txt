@@ -1,0 +1,15 @@
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\bin\Debug\net7.0\Lista2_Exercicio8.exe
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\bin\Debug\net7.0\Lista2_Exercicio8.deps.json
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\bin\Debug\net7.0\Lista2_Exercicio8.runtimeconfig.json
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\bin\Debug\net7.0\Lista2_Exercicio8.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\bin\Debug\net7.0\Lista2_Exercicio8.pdb
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.csproj.AssemblyReference.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.AssemblyInfoInputs.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.AssemblyInfo.cs
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.csproj.CoreCompileInputs.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\refint\Lista2_Exercicio8.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.pdb
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\Lista2_Exercicio8.genruntimeconfig.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Operadores_Logicos_Condicionais\Lista2_Exercicio8\obj\Debug\net7.0\ref\Lista2_Exercicio8.dll

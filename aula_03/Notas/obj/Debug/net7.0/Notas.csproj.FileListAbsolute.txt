@@ -1,0 +1,15 @@
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\bin\Debug\net7.0\Notas.exe
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\bin\Debug\net7.0\Notas.deps.json
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\bin\Debug\net7.0\Notas.runtimeconfig.json
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\bin\Debug\net7.0\Notas.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\bin\Debug\net7.0\Notas.pdb
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.csproj.AssemblyReference.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.AssemblyInfoInputs.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.AssemblyInfo.cs
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.csproj.CoreCompileInputs.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\refint\Notas.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.pdb
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\Notas.genruntimeconfig.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\Notas\obj\Debug\net7.0\ref\Notas.dll

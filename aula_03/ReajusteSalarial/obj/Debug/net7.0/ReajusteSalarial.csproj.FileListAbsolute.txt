@@ -1,0 +1,15 @@
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\bin\Debug\net7.0\ReajusteSalarial.exe
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\bin\Debug\net7.0\ReajusteSalarial.deps.json
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\bin\Debug\net7.0\ReajusteSalarial.runtimeconfig.json
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\bin\Debug\net7.0\ReajusteSalarial.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\bin\Debug\net7.0\ReajusteSalarial.pdb
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.csproj.AssemblyReference.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.AssemblyInfoInputs.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.AssemblyInfo.cs
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.csproj.CoreCompileInputs.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\refint\ReajusteSalarial.dll
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.pdb
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ReajusteSalarial.genruntimeconfig.cache
+C:\Users\Ingrid\Desktop\csharp\aula_03\ReajusteSalarial\obj\Debug\net7.0\ref\ReajusteSalarial.dll
