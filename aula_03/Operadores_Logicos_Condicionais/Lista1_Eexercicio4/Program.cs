@@ -1,4 +1,4 @@
-﻿namespace Lista1_Eexercicio4
+﻿namespace Lista1_Exercicio4
 {
     internal class Program
     {
@@ -6,28 +6,92 @@
         {
             static void Main(string[] args)
             {
-                string vertebrado, invertebrado;
-                string ave, mamifero, inseto, anelideo;
-                string carnivoro, onivoro, herbivoro, hematofago;
-                string aguia, pomba, homem, vaca, pulga, lagarta, sanguessuga, minhoca;
+                string? palavra1, palavra2, palavra3;
 
-                string entrada1, entrada2, entrada3, animalEscolhido;
+                Console.WriteLine("Digite a primeira palavra: ");
+                palavra1 = Console.ReadLine();
 
-                Console.Write("Escreva o segmento do animal: ");
-                entrada1 = Console.ReadLine();
+                Console.WriteLine("Digite a primeira segunda: ");
+                palavra2 = Console.ReadLine();
 
-                Console.Write("Escreva a espécie do animal: ");
-                entrada2 = Console.ReadLine();
+                Console.WriteLine("Digite a primeira terceira: ");
+                palavra3 = Console.ReadLine();
 
-                Console.Write("Escreva o tipo de alimentação do animal: ");
-                entrada3 = Console.ReadLine();
-
-                animalEscolhido = entrada1 + entrada2 + entrada3;
-
-                //if (entrada1 == vertebrado && entrada2 == ave && carnivoro) 
+                if (palavra1 is not null && palavra2 is not null && palavra3 is not null)
                 {
+                    //verificando se é vertebrado ou Invertebrado
+                    if (palavra1.Equals("vertebrado"))
+                    {
+                        //verificando se é Ave ou Mamífero
+                        if (palavra2.Equals("ave"))
+                        {
+                            if (palavra3.Equals("carnívoro"))
+                            {
+                                Console.WriteLine("Águia");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Pomba");
 
+                            }
+                        }
+                        else
+                        {
+                            if (palavra2.Equals("Mamífero"))
+                            {
+                                if (palavra3.Equals("onívoro"))
+                                {
+                                    Console.WriteLine("Homem");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Vaca");
+
+                                }
+                            }
+
+                        }
+                    }
+                    else
+                    {
+                        //verificando se é inseto ou anelídeo
+                        if (palavra2.Equals("inseto"))
+                        {
+                            if (palavra3.Equals("hematófago"))
+                            {
+                                Console.WriteLine("pulga");
+                            }
+                            else
+                            {
+                                Console.WriteLine("lagarta");
+
+                            }
+                        }
+                        else
+                        {
+                            if (palavra2.Equals("onívoro"))
+                            {
+                                if (palavra3.Equals("onívoro"))
+                                {
+                                    Console.WriteLine("minhoca");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Sanguessuga");
+
+                                }
+                            }
+
+                        }
+
+                    }
                 }
+                else
+                {
+                    Console.WriteLine("As palavras não podem ser nulas!");
+                }
+
+
             }
         }
     }
