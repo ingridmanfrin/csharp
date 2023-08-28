@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetores", "Vetores.csproj", "{8C09E957-3858-4DFD-BD56-A1701F24F68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "..\Matrizes\Matrizes.csproj", "{04AF9531-407F-478A-B5AF-90F7BB09EB2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C09E957-3858-4DFD-BD56-A1701F24F68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C09E957-3858-4DFD-BD56-A1701F24F68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C09E957-3858-4DFD-BD56-A1701F24F68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C09E957-3858-4DFD-BD56-A1701F24F68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04AF9531-407F-478A-B5AF-90F7BB09EB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AF9531-407F-478A-B5AF-90F7BB09EB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AF9531-407F-478A-B5AF-90F7BB09EB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AF9531-407F-478A-B5AF-90F7BB09EB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E22726E-FA77-431C-8411-B2D01AB24E7F}
+	EndGlobalSection
+EndGlobal
