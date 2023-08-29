@@ -12,7 +12,7 @@
             {
                 for (int indiceColuna = 0; indiceColuna < matrizNotas.GetLength(1); indiceColuna++)
                 {
-                    Console.Write($"matriz[{indiceLinha}, {indiceColuna}] = ");
+                    Console.Write($"Digite a {indiceColuna + 1}ª nota do Participante {indiceLinha + 1} = ");
                     matrizNotas[indiceLinha, indiceColuna] = Convert.ToDouble(Console.ReadLine());
                 }
 
@@ -29,7 +29,7 @@
                 }
 
                 // Guarda a media no vetor auxiliar
-                vetorMedia[linha] = soma / 4;
+                vetorMedia[linha] = soma / 4; // ou vetorMedia[linha] = soma / matriz.GetLength(1);
 
                 //soma = 0; //não preciso dessa linha pq como a minha variavel soma está local, ela irá se autoapagar a cada iteração do for
             }
@@ -38,7 +38,7 @@
 
             for (int indice = 0; indice < vetorMedia.Length; indice++)
             {
-                Console.Write($"{vetorMedia[indice]: 0.0} | ");
+                Console.Write($"Média do participante {indice + 1}: {vetorMedia[indice]: 0.0} | ");
             }
 
         }

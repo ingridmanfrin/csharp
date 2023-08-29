@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int[] vetor = { 2,5,1,3,4,9,7,8,10,6 };
+            int[] vetor = { 2, 5, 1, 3, 4, 9, 7, 8, 10, 6 };
             int numero;
 
             Console.WriteLine("Digite o número que você deseja encontrar: ");
@@ -17,8 +17,11 @@
                 {
                     Console.WriteLine($"O número {numero} está localizado na posição: {indice} ");
                 }
-
             }
+            Array.IndexOf();
+            Console.WriteLine($"O numero {numero} não foi encontrado!");
+
+
         }
     }
 }
