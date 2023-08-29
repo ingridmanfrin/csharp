@@ -10,16 +10,14 @@
             Console.WriteLine("Digite o número que você deseja encontrar: ");
             numero = Convert.ToInt32(Console.ReadLine());
 
-
-            for (int indice = 0; indice < 10; indice++)
-            {
-                if (vetor[indice] == numero)
+                if (Array.IndexOf(vetor, numero) != -1)
                 {
-                    Console.WriteLine($"O número {numero} está localizado na posição: {indice} ");
+                    Console.WriteLine($"O número {numero} está localizado na posição: " + Array.IndexOf(vetor, numero));
                 }
-            }
-            Array.IndexOf();
-            Console.WriteLine($"O numero {numero} não foi encontrado!");
+                else
+                {
+                    Console.WriteLine($"O numero {numero} não foi encontrado!");
+                }
 
 
         }

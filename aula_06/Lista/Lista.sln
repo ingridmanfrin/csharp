@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados_Fila_Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaDeDados_Pilha_Exercicio2", "..\EstruturaDeDados_Pilha_Exercicio2\EstruturaDeDados_Pilha_Exercicio2.csproj", "{98BBFD2B-9AB2-448D-9BC1-6A0EB26B3BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionList_Lista01_Exercicio2", "..\CollectionList_Lista01_Exercicio2\CollectionList_Lista01_Exercicio2.csproj", "{4B26852F-C24D-4D4A-8359-35A174CA8498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionHashSet_Lista02_Exercicio4", "..\CollectionHashSet_Lista02_Exercicio4\CollectionHashSet_Lista02_Exercicio4.csproj", "{6A62EFB7-168D-4BF5-A848-50CC3FDEACE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{98BBFD2B-9AB2-448D-9BC1-6A0EB26B3BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98BBFD2B-9AB2-448D-9BC1-6A0EB26B3BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98BBFD2B-9AB2-448D-9BC1-6A0EB26B3BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B26852F-C24D-4D4A-8359-35A174CA8498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B26852F-C24D-4D4A-8359-35A174CA8498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B26852F-C24D-4D4A-8359-35A174CA8498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B26852F-C24D-4D4A-8359-35A174CA8498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A62EFB7-168D-4BF5-A848-50CC3FDEACE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A62EFB7-168D-4BF5-A848-50CC3FDEACE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A62EFB7-168D-4BF5-A848-50CC3FDEACE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A62EFB7-168D-4BF5-A848-50CC3FDEACE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
