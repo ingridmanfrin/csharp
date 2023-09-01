@@ -4,95 +4,83 @@
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
+            string? palavra1, palavra2, palavra3;
+
+            Console.WriteLine("Digite a primeira palavra: ");
+            palavra1 = Console.ReadLine();
+
+            Console.WriteLine("Digite a primeira segunda: ");
+            palavra2 = Console.ReadLine();
+
+            Console.WriteLine("Digite a primeira terceira: ");
+            palavra3 = Console.ReadLine();
+
+            if (palavra1 is not null && palavra2 is not null && palavra3 is not null)
             {
-                string? palavra1, palavra2, palavra3;
-
-                Console.WriteLine("Digite a primeira palavra: ");
-                palavra1 = Console.ReadLine();
-
-                Console.WriteLine("Digite a primeira segunda: ");
-                palavra2 = Console.ReadLine();
-
-                Console.WriteLine("Digite a primeira terceira: ");
-                palavra3 = Console.ReadLine();
-
-                if (palavra1 is not null && palavra2 is not null && palavra3 is not null)
+                //verificando se é vertebrado ou Invertebrado
+                if (palavra1.Equals("vertebrado"))
                 {
-                    //verificando se é vertebrado ou Invertebrado
-                    if (palavra1.Equals("vertebrado"))
+                    //verificando se é Ave ou Mamífero
+                    if (palavra2.Equals("ave"))
                     {
-                        //verificando se é Ave ou Mamífero
-                        if (palavra2.Equals("ave"))
+                        if (palavra3.Equals("carnívoro"))
                         {
-                            if (palavra3.Equals("carnívoro"))
-                            {
-                                Console.WriteLine("Águia");
-                            }
-                            else
-                            {
-                                Console.WriteLine("Pomba");
-
-                            }
+                            Console.WriteLine("Águia");
                         }
                         else
                         {
-                            if (palavra2.Equals("Mamífero"))
-                            {
-                                if (palavra3.Equals("onívoro"))
-                                {
-                                    Console.WriteLine("Homem");
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Vaca");
-
-                                }
-                            }
+                            Console.WriteLine("Pomba");
 
                         }
                     }
                     else
                     {
-                        //verificando se é inseto ou anelídeo
-                        if (palavra2.Equals("inseto"))
+                        if (palavra3.Equals("onívoro", StringComparison.CurrentCultureIgnoreCase)) //fazer funcionar mesmo sem acento (trazer a palavra Homem)!!!
                         {
-                            if (palavra3.Equals("hematófago"))
-                            {
-                                Console.WriteLine("pulga");
-                            }
-                            else
-                            {
-                                Console.WriteLine("lagarta");
-
-                            }
+                            Console.WriteLine("Homem");
                         }
                         else
                         {
-                            if (palavra2.Equals("onívoro"))
-                            {
-                                if (palavra3.Equals("onívoro"))
-                                {
-                                    Console.WriteLine("minhoca");
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Sanguessuga");
-
-                                }
-                            }
+                            Console.WriteLine("Vaca");
 
                         }
-
                     }
                 }
                 else
                 {
-                    Console.WriteLine("As palavras não podem ser nulas!");
+                    //verificando se é inseto ou anelídeo
+                    if (palavra2.Equals("inseto"))
+                    {
+                        if (palavra3.Equals("hematófago"))
+                        {
+                            Console.WriteLine("pulga");
+                        }
+                        else
+                        {
+                            Console.WriteLine("lagarta");
+
+                        }
+                    }
+                    else
+                    {
+                        if (palavra3.Equals("onívoro"))
+                        {
+                            Console.WriteLine("Minhoca");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Sanguessuga");
+
+                        }
+                    }
+
                 }
-
-
             }
+            else
+            {
+                Console.WriteLine("As palavras não podem ser nulas!");
+            }
+
         }
     }
 }

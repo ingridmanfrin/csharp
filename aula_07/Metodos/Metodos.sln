@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodos", "Metodos.csproj", "{7CD3CE62-EAC5-4728-BCEE-93E0DDF46698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodos_02", "..\Metodos_02\Metodos_02.csproj", "{943D265E-6EF2-46A7-A6C0-63F4C933231D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CD3CE62-EAC5-4728-BCEE-93E0DDF46698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD3CE62-EAC5-4728-BCEE-93E0DDF46698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD3CE62-EAC5-4728-BCEE-93E0DDF46698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD3CE62-EAC5-4728-BCEE-93E0DDF46698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943D265E-6EF2-46A7-A6C0-63F4C933231D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943D265E-6EF2-46A7-A6C0-63F4C933231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943D265E-6EF2-46A7-A6C0-63F4C933231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943D265E-6EF2-46A7-A6C0-63F4C933231D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {023BF87D-2C94-4333-BC55-8F0E9E126DFE}
+	EndGlobalSection
+EndGlobal
