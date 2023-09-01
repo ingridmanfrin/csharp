@@ -86,7 +86,7 @@ namespace Atividade02_Funcionario.Model
             this.dataContratacao = dataContratacao;
         }
 
-        public void Visualizar()
+        public virtual void Visualizar()
         {
             Console.WriteLine("------------------------------------------------------------");
             Console.WriteLine("Dados do Funcionário");
@@ -95,7 +95,7 @@ namespace Atividade02_Funcionario.Model
             Console.WriteLine($"Nome do Funcionário: {this.nome}");
             Console.WriteLine($"Idade do Funcionário: {this.idade}");
             Console.WriteLine($"Cargo do Funcionário: {this.cargo}");
-            Console.WriteLine($"Salário do Funcionário: " + (this.salario).ToString("C"));
+            Console.WriteLine($"Salário do Funcionário:  {(this.salario).ToString("C")}");
             Console.WriteLine("Data de Contratação do Funcionário: {0:d}", this.dataContratacao);
 
         }

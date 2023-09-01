@@ -13,16 +13,14 @@ namespace Atividade01_Cliente.Model
         private int id;
         private string nome;
         private int idade;
-        private string cpf;
         private string telefone;
         private string email;
 
-        public Cliente(int id, string nome, int idade, string cpf, string telefone, string email)
+        public Cliente(int id, string nome, int idade, string telefone, string email)
         {
             this.id = id;
             this.nome = nome;
             this.idade = idade;
-            this.cpf = cpf;
             this.telefone = telefone;
             this.email = email;
         }
@@ -57,16 +55,6 @@ namespace Atividade01_Cliente.Model
             this.idade = idade;
         }
 
-        public string GetCpf()
-        {
-            return cpf;
-        }
-
-        public void SetCpf(string cpf)
-        {
-            this.cpf = cpf;
-        }
-        
         public string GetTelefone()
         {
             return telefone;
@@ -86,17 +74,16 @@ namespace Atividade01_Cliente.Model
             this.email = email;
         }
 
-        public void Visualizar()
+        public virtual void Visualizar()
         {
             Console.WriteLine("------------------------------------------");
             Console.WriteLine("Dados do Cliente");
             Console.WriteLine("------------------------------------------");
-            Console.WriteLine($"Id do cliente: {this.id}");
-            Console.WriteLine($"Nome da cliente: {this.nome}");
-            Console.WriteLine($"Idade da cliente: {this.idade}");
-            Console.WriteLine($"CPF da cliente: {this.cpf}");
-            Console.WriteLine($"Telefone da cliente: {this.telefone}");
-            Console.WriteLine($"Email da cliente: {this.email}");
+            Console.WriteLine($"Id do Cliente: {this.id}");
+            Console.WriteLine($"Nome do Cliente: {this.nome}");
+            Console.WriteLine($"Idade do Cliente: {this.idade}");
+            Console.WriteLine($"Telefone do Cliente: {this.telefone}");
+            Console.WriteLine($"Email do Cliente: {this.email}");
 
         }
     }
